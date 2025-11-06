@@ -37,9 +37,11 @@ An intelligent Retrieval-Augmented Generation (RAG) platform designed for G3 Ent
 ### Career Development Tracker
 **Repository**: [career-development-tracker](https://github.com/jacobdcook/career-development-tracker)
 
-A comprehensive desktop application for managing structured career development plans. Features customizable templates, AI-generated plans, beautiful GUI, and progress tracking. Supports any field with flexible planning capabilities.
+A comprehensive desktop application for managing structured schedules and career development plans. Supports any field with customizable templates and detailed planning guides - perfect for job search, learning new skills, or achieving any goal.
 
-**Tech Stack**: `Python`
+**Key Features**: Customizable plans for any field (cybersecurity, data science, web dev, etc.), custom plan generation with templates, modern GUI with progress visualization, advanced filtering by category/status/search, progress tracking with visual progress bars, automatic backups and export capabilities, privacy-first design with gitignored personal data
+
+**Tech Stack**: `Python` `Tkinter` `JSON`
 
 **License**: MIT License
 
@@ -48,43 +50,59 @@ A comprehensive desktop application for managing structured career development p
 ### Daily Wellness Scheduler
 **Repository**: [daily-wellness-scheduler](https://github.com/jacobdcook/daily-wellness-scheduler) *(Private)*
 
-Personal desktop application for tracking daily supplement and electrolyte schedules with gamification features to encourage consistent wellness habits.
+A Python desktop application that generates personalized 6-week supplement and electrolyte schedules based on daily habits and timing preferences. Features smart scheduling with automatic optimal timing calculations, conflict resolution for proper supplement/meal spacing, flexible configuration for wake times and meal schedules, multiple views (today's checklist, weekly overview, 6-week calendar), and export options to CSV or iCal format.
 
-**Tech Stack**: `Python`
+**Key Features**: Smart scheduling with meal/workout/study block integration, conflict resolution for absorption issues, flexible configuration, multiple views, export to CSV/iCal, CLI mode for automation, comprehensive supplement regimen support
+
+**Tech Stack**: `Python` `Tkinter` `JSON` `CSV` `iCal`
 
 ---
 
 ### Security+ Learning Lab
 **Repository**: [security-plus-labs](https://github.com/jacobdcook/security-plus-labs)
 
-Comprehensive documentation of my Security+ certification journey through Professor Messer's course, including lab exercises, concept summaries, screenshots, and reflections. Hands-on security practice and documentation.
+Hands-on lab exercises for CompTIA Security+ SY0-701 certification preparation, following Professor Messer's video series. Documents learning process with detailed lab procedures, screenshots, and technical documentation.
 
-**Tech Stack**: `C`
+**Completed Labs**: Hash Integrity (SHA-256), PKI & Certificates, Encryption Technologies (AES, TPM), Key Exchange (Diffie-Hellman), Digital Signatures, SQL Injection, Cross-Site Scripting (XSS), Buffer Overflows, Memory Injections, Race Conditions, and more
+
+**Key Features**: Step-by-step hands-on exercises, screenshots of actual results, analysis and reflection, security implications documentation, educational vulnerability testing
+
+**Tech Stack**: `C` `OpenSSL` `GCC` `Web Security Tools`
 
 ---
 
 ### Cybersecurity Learning Journey
 **Repository**: [cybersecurity-learning-journey](https://github.com/jacobdcook/cybersecurity-learning-journey)
 
-Personal cybersecurity learning journey documenting Security+ studies, hands-on labs, and career development progress.
+Personal cybersecurity learning journey documenting Security+ studies, hands-on labs, and career development progress. Tracks daily progress through CompTIA Security+ (SY0-701) certification studies using Professor Messer videos and 37 hands-on lab exercises.
+
+**Key Features**: Daily progress tracking, weekly summaries, lab completion tracking (10/37 completed), resume optimization, skills development tracking (cryptography, network security, web security, risk management)
+
+**Focus Areas**: CompTIA Security+ (SY0-701), Professor Messer course, hands-on labs, career development tracking, daily logs and progress documentation
 
 ---
 
 ### Raspberry Pi Day Planner
 **Repository**: [raspberry-pi-day-planner](https://github.com/jacobdcook/raspberry-pi-day-planner)
 
-Day planning application built for Raspberry Pi systems.
+A comprehensive, intelligent day planning system designed for Raspberry Pi with advanced features for productivity, task management, and personal development. Features persistent data & analytics, intelligent task flow with adaptation, backlog & redemption system, voice integration with ElevenLabs, and advanced UI/UX with dynamic theme support.
 
-**Tech Stack**: `Python`
+**Key Features**: Daily summary tracker with auto-save, rolling 7-day burn chart, task timer with voice alerts, adaptive time adjustment, incomplete task backlog, redemption system, ElevenLabs voice assistant, dynamic theme support (light/dark mode), fully responsive UI layout, Windows test environment, Pi simulation mode
+
+**Tech Stack**: `Python` `Pygame` `Tkinter` `ElevenLabs API` `SQLite` `YAML` `FastAPI`
 
 ---
 
 ### Smart Pantry Meal Planning
 **Repository**: [SmartPantry-MealPlanning](https://github.com/AdibaAdi/SmartPantry-MealPlanning)
 
-HackSwift Hackathon 2024 project - an intelligent meal planning application that helps optimize pantry usage and meal planning.
+**HackSwift Hackathon 2024 Project** - A revolutionary meal planning application designed to transform meal planning experience. SmartPantry helps reduce food waste, teaches correct food storage methods, and inspires users to create delicious meals tailored to their tastes and preferences.
 
-**Tech Stack**: `JavaScript`
+**Key Features**: Recipe database with curated and user-generated content, create your own recipes with ingredients/steps/photos, food storage tips for different food types, reduce food waste through efficient planning and storage, comprehensive meal planning tools
+
+**Tech Stack**: `MongoDB` `Express.js` `React` `Node.js` (MERN Stack)
+
+**Team Members**: Adiba Akter, Jalen Scrivner, Samantha Ceralde, Jacob Cook, Richard Varela
 
 **License**: MIT License
 
@@ -93,9 +111,11 @@ HackSwift Hackathon 2024 project - an intelligent meal planning application that
 ### Doctor App Flutter
 **Repository**: [DoctorAppFlutter](https://github.com/jacobdcook/DoctorAppFlutter)
 
-Mobile application development project using Flutter framework.
+Flutter mobile application for doctor/medical services with Firebase integration. Includes comprehensive installation guide for Windows and macOS, Firebase emulator support, and multi-platform deployment capabilities.
 
-**Tech Stack**: `Dart` `Flutter`
+**Key Features**: Firebase integration (Firestore), cross-platform support (Android/iOS), Firebase emulator via browser, login connection to Firebase, multi-platform build support (APK/IPA)
+
+**Tech Stack**: `Dart` `Flutter` `Firebase` `Firestore` `Android Studio` `Xcode`
 
 **License**: MIT License
 

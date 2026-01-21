@@ -1,3 +1,5 @@
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Software+Developer+%26+Security+Enthusiast&center=true&vCenter=true&size=27)
+
 👋 Hi, I'm Jacob Cook
 Software Developer & Security Enthusiast
 LinkedIn | GitHub

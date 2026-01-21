@@ -1,15 +1,16 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Software+Developer+%26+Security+Enthusiast&center=true&vCenter=true&size=27)
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjIzbW05cHN5NGZ2MHhwNTZueGtzZHJ0MHRjcHR6OGp5Y2NncWJ5ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GghGKaZ8JeHJx0apQC/giphy.gif" width="280" alt="Hello!">
+</p>
 
-👋 Hi, I'm Jacob Cook
-Software Developer & Security Enthusiast
-LinkedIn | GitHub
+<h1 align="center">Hi, I'm Jacob!</h1>
 
-✨ Let's connect! I'm always open to collaborating on innovative projects or chatting about the latest in cybersecurity. ✨
+<p align="center">
+  <a href="https://www.linkedin.com/in/jcook-dev/">LinkedIn</a> • <a href="https://github.com/jacobdcook">GitHub</a>
+</p>
 
-## About Me
-I'm a software developer who loves building tools that make a difference. Whether it's crafting AI-powered platforms or diving into security labs, I'm always looking for the next challenge to solve.
+I'm a software developer based in California, focused on building secure and impactful applications. Whether I'm developing AI-driven platforms or working through complex security labs, I love the process of turning a tough problem into a clean solution.
 
-Currently, I'm pursuing my Master's in Cybersecurity at Western Governors University (Jan 2028), building on my B.S. in Computer Science from California State University, Sacramento. I also recently earned my CompTIA Security+ (SY0-701) certification! 🔒
+Currently pursuing my **Master's in Cybersecurity** at Western Governors University (Jan 2028), I'm always looking to expand my knowledge in threat detection and cloud security.
 
 ## 🛠️ Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -23,9 +24,9 @@ Currently, I'm pursuing my Master's in Cybersecurity at Western Governors Univer
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=azure-devops&logoColor=white)
 
-## Project Portfolio 💻
+## Project Portfolio
 
-### 🔒 Cybersecurity & AI
+### Cybersecurity & AI
 
 <table style="width:100%; border-collapse:collapse; table-layout:fixed;">
   <tr>
@@ -75,7 +76,7 @@ Currently, I'm pursuing my Master's in Cybersecurity at Western Governors Univer
   </tr>
 </table>
 
-### 💻 Software Development
+### Software Development
 
 <table style="width:100%; border-collapse:collapse; table-layout:fixed;">
   <tr>
@@ -106,12 +107,12 @@ Currently, I'm pursuing my Master's in Cybersecurity at Western Governors Univer
   </tr>
 </table>
 
-## 🎓 Education & Certifications
-🎓 Master's in Cybersecurity - Western Governors University (Anticipated: Jan 2028)
-🎓 B.S. in Computer Science - California State University, Sacramento 🐝
-🔒 CompTIA Security+ (SY0-701) - Certified ✅
+## Education & Certifications
+- **Master's in Cybersecurity** - Western Governors University (Anticipated: Jan 2028)
+- **B.S. in Computer Science** - California State University, Sacramento
+- **CompTIA Security+ (SY0-701)** - Certified
 
-## 📊 Statistics
+## GitHub Stats
 ![Jacob's GitHub stats](https://github-readme-stats.vercel.app/api?username=jacobdcook&show_icons=true&theme=dark)
 
-Last updated: January 2026 ✨
+Last updated: January 2026

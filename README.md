@@ -41,9 +41,9 @@ Currently, I'm pursuing my **Master's in Cybersecurity** at Western Governors Un
     </td>
     <td style="width:33.33%; padding:0; border:1px solid #3a3a3a;">
       <table style="width:100%; height:320px; table-layout:fixed;">
-        <tr><td align="center" style="height:56px; font-weight:bold;">G3-GPT (Private)</td></tr>
-        <tr><td align="center" style="height:200px;"><img src="https://via.placeholder.com/260x160?text=G3-GPT+AI" alt="G3-GPT" width="260" height="160"></td></tr>
-        <tr><td align="center" style="height:64px;"><i>Senior Capstone</i></td></tr>
+        <tr><td align="center" style="height:56px; font-weight:bold;">G3-GPT</td></tr>
+        <tr><td align="center" style="height:200px;"><img src="https://via.placeholder.com/260x160?text=G3-GPT+RAG" alt="G3-GPT" width="260" height="160"></td></tr>
+        <tr><td align="center" style="height:64px;"><i>Senior Capstone (Private)</i></td></tr>
       </table>
     </td>
   </tr>
@@ -59,7 +59,7 @@ Currently, I'm pursuing my **Master's in Cybersecurity** at Western Governors Un
       <table style="width:100%; height:320px; table-layout:fixed;">
         <tr><td align="center" style="height:56px; font-weight:bold;">Security Journey</td></tr>
         <tr><td align="center" style="height:200px;"><img src="https://via.placeholder.com/260x160?text=Security+Journey" alt="Cybersecurity Learning Journey" width="260" height="160"></td></tr>
-        <tr><td align="center" style="height:64px;"><a href="https://github.com/jacobdcook/Cybersecurity-Learning-Journey">Project Link</a></td></tr>
+        <tr><td align="center" style="height:64px;"><a href="https://github.com/jacobdcook/cybersecurity-learning-journey">Project Link</a></td></tr>
       </table>
     </td>
     <td style="width:33.33%; padding:0; border:1px solid #3a3a3a;"><div style="height:320px;"></div></td>

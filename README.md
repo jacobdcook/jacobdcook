@@ -1,6 +1,12 @@
-# Hi, I'm Jacob!
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDh1bWRpZDhtanJ6YzY4aDB2aDhtaTg3ODl3eHc2cmV4bGUzaTA3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GghGKaZ8JeHJx0apQC/giphy.gif" width="200" />
+</p>
 
-LinkedIn • GitHub 
+<h1 align="center">Hi, I'm Jacob!</h1>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/jcook-dev">LinkedIn</a> • <a href="https://github.com/jacobdcook">GitHub</a>
+</p>
 
 I'm a software developer based in California, focused on building secure and impactful applications. Whether I'm developing AI-driven platforms or working through complex security labs, I love the process of turning a tough problem into a clean solution.
 

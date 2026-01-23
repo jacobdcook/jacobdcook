@@ -53,6 +53,6 @@ Currently pursuing my **Master's in Cybersecurity** at Western Governors Univers
 
 ## GitHub Stats
 
-![Jacob's GitHub stats](https://github-readme-stats.vercel.app/api?username=jacobdcook&show_icons=true&theme=radical)
+![Jacob's GitHub stats](https://github-readme-stats.vercel.app/api?username=jacobdcook&show_icons=true&theme=radical&hide_rank=true)
 
 Last updated: January 2026

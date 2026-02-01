@@ -55,9 +55,7 @@ Currently pursuing my **Master's in Cybersecurity** at Western Governors Univers
 
 ## GitHub Stats
 
-<p align="left">
-  <img src="https://img.shields.io/github/followers/jacobdcook?style=for-the-badge" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/jacobdcook?affiliation=owner&style=for-the-badge" alt="GitHub stars" />
-</p>
+<!-- Full stats card: commits, PRs, contributions, languages (not followers/stars). If the image doesn't load, the external service may be slow or down. -->
+![Jacob's GitHub stats](https://github-readme-stats.vercel.app/api?username=jacobdcook&show_icons=true&theme=default&hide_rank=true&hide=stars&include_all_commits=true)
 
 Last updated: January 2026

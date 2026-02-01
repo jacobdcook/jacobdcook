@@ -58,4 +58,4 @@ Currently pursuing my **Master's in Cybersecurity** at Western Governors Univers
 <!-- Full stats card: commits, PRs, contributions, languages (not followers/stars). If the image doesn't load, the external service may be slow or down. -->
 ![Jacob's GitHub stats](https://github-readme-stats.vercel.app/api?username=jacobdcook&show_icons=true&theme=default&hide_rank=true&hide=stars&include_all_commits=true)
 
-Last updated: January 2026
+Last updated: February 2026

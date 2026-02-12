@@ -45,13 +45,15 @@ Currently pursuing my **Master's in Cybersecurity** at Western Governors Univers
 | :---: | :---: | :---: |
 | <p align="center"><a href="https://github.com/jacobdcook/daily-wellness-scheduler"><img src="https://raw.githubusercontent.com/jacobdcook/jacobdcook/main/assets/daily-wellness.png" width="300" height="300" /></a><br>Desktop app for tracking supplements and electrolytes with gamification features<br><a href="https://github.com/jacobdcook/daily-wellness-scheduler">Project Link</a></p> | <p align="center"><a href="https://github.com/jacobdcook/HealthLink"><img src="https://raw.githubusercontent.com/jacobdcook/jacobdcook/main/assets/healthlink.png" width="300" height="300" /></a><br>Healthcare management platform connecting patients with providers<br><a href="https://github.com/jacobdcook/HealthLink">Project Link</a></p> | <p align="center"><a href="https://github.com/jacobdcook/Smart-Pantry-Meal-Planning"><img src="https://raw.githubusercontent.com/jacobdcook/jacobdcook/main/assets/smart-pantry.png" width="300" height="300" /></a><br>AI-powered meal planning app that generates recipes based on available ingredients<br><a href="https://github.com/jacobdcook/Smart-Pantry-Meal-Planning">Project Link</a></p> |
 | <p align="center"><b>AI Job Hunter</b></p> | | |
-| <p align="center"><a href="https://github.com/jacobdcook/ai-job-hunter"><img src="https://raw.githubusercontent.com/jacobdcook/ai-job-hunter/main/assets/ai-job-hungter.png" width="300" height="300" /></a><br>AI-powered job search automation tool that scrapes job listings, filters them, and uses AI to score matches<br><a href="https://github.com/jacobdcook/ai-job-hunter">Project Link</a></p> | | |
+| <p align="center"><a href="https://github.com/jacobdcook/ai-job-hunter"><img src="https://raw.githubusercontent.com/jacobdcook/jacobdcook/main/assets/ai-job-hunter.png" width="300" height="300" /></a><br>AI-powered job search automation tool that scrapes job listings, filters them, and uses AI to score matches<br><a href="https://github.com/jacobdcook/ai-job-hunter">Project Link</a></p> | | |
 
 ## Education & Certifications
 
 * **Master's in Cybersecurity** - Western Governors University (Anticipated: Jan 2028)
 * **B.S. in Computer Science** - California State University, Sacramento
-* **CompTIA Security+ (SY0-701)** - Certified
+* **CompTIA Security+ (SY0-701)** - Certified Jan 2026
+* **CompTIA CySA+ (CS0-003)** - Certified Feb 2026
+* **CompTIA CSAP Stackable** - Earned Feb 2026
 
 ## GitHub Stats
 

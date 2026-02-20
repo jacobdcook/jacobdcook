@@ -5,12 +5,16 @@
 <h1 align="center">Hi, I'm Jacob!</h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/jcook-dev">LinkedIn</a> • <a href="https://github.com/jacobdcook">GitHub</a>
+  <a href="https://www.linkedin.com/in/jcook-dev"><img src="https://img.shields.io/badge/LinkedIn-jcook--dev-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://jacobdcook.com"><img src="https://img.shields.io/badge/Portfolio-jacobdcook.com-4A90D9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://www.jacobdcook.com/resume.pdf"><img src="https://img.shields.io/badge/Resume-Download_PDF-22C55E?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" /></a>
 </p>
 
-I'm a software developer based in California, focused on building secure and impactful applications. Whether I'm developing AI-driven platforms or working through complex security labs, I love the process of turning a tough problem into a clean solution.
+I'm a **CompTIA Security+ & CySA+ certified** CS graduate based in California, pursuing SOC Analyst roles. I focus on threat detection, SIEM monitoring, and incident triage — building hands-on experience through Wazuh home labs, phishing analysis, and SOAR automation.
 
-Currently pursuing my **Master's in Cybersecurity** at Western Governors University (Jan 2028), I'm always looking to expand my knowledge in threat detection and cloud security.
+Currently pursuing my **Master's in Cybersecurity** at Western Governors University, always pushing to deepen my knowledge in detection engineering and security operations.
 
 ## 🛠️ Tech Stack
 

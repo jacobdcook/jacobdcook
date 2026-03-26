@@ -12,9 +12,9 @@
   <a href="https://www.jacobdcook.com/resume.pdf"><img src="https://img.shields.io/badge/Resume-Download_PDF-22C55E?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" /></a>
 </p>
 
-I'm a **CompTIA Security+, CySA+, PenTest+, and SecurityX certified** CS graduate based in California, pursuing SOC Analyst and Detection Engineering roles. I focus on threat detection, SIEM monitoring, and incident triage — building hands-on experience through Wazuh home labs, Okta detection engineering, phishing analysis, and SOAR automation.
+**Detection and security automation engineer** (BS Computer Science, MS Cybersecurity in progress @ WGU). CompTIA **Security+**, **CySA+**, **PenTest+**, **SecurityX**, and **CSIE** (stackable). Public work spans **SIEM**, **detection-as-code**, **identity**, **cloud**, **SOAR-style automation**, and **network behavior** tooling. I write for outcomes: clearer coverage, less noisy alerting where possible, and repeatable triage paths.
 
-Currently pursuing my **Master's in Cybersecurity** at Western Governors University, always pushing to deepen my knowledge in detection engineering and security operations.
+**Master's in Cybersecurity** at Western Governors University (expected **May 2027**).
 
 ## 🛠️ Tech Stack
 
@@ -34,6 +34,8 @@ Currently pursuing my **Master's in Cybersecurity** at Western Governors Univers
 ## Project Portfolio
 
 ### Cybersecurity & AI
+
+**Featured detection work:** [Stryker / Intune Detection Pack](https://github.com/jacobdcook/stryker-intune-detection-pack) — Sigma rules, KV enrichment, MITRE-aligned playbooks for Intune MDM abuse scenarios.
 
 | <p align="center">Blue Team SOC Monitoring Lab</p> | <p align="center">AI Log Auditor</p> | <p align="center">G3-GPT - AI-Driven Document Retrieval</p> |
 | :---: | :---: | :---: |
@@ -55,12 +57,13 @@ Currently pursuing my **Master's in Cybersecurity** at Western Governors Univers
 
 ## Education & Certifications
 
-* **Master's in Cybersecurity** - Western Governors University (Expected Dec 2026)
+* **Master's in Cybersecurity** - Western Governors University (Expected May 2027)
 * **B.S. in Computer Science** - California State University, Sacramento
 * **CompTIA SecurityX (CAS-005)** - Certified 2026
 * **CompTIA PenTest+ (PT0-003)** - Certified 2026
 * **CompTIA CySA+ (CS0-003)** - Certified Feb 2026
 * **CompTIA Security+ (SY0-701)** - Certified Jan 2026
+* **CompTIA CSIE** (Secure Infrastructure Expert) - stackable credential
 
 ## GitHub Stats
 

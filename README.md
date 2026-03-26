@@ -12,7 +12,7 @@
   <a href="https://www.jacobdcook.com/resume.pdf"><img src="https://img.shields.io/badge/Resume-Download_PDF-22C55E?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" /></a>
 </p>
 
-**Detection and security automation engineer** (BS Computer Science, MS Cybersecurity in progress @ WGU). CompTIA **Security+**, **CySA+**, **PenTest+**, **SecurityX**, and **CSIE** (stackable). Public work spans **SIEM**, **detection-as-code**, **identity**, **cloud**, **SOAR-style automation**, and **network behavior** tooling. I write for outcomes: clearer coverage, less noisy alerting where possible, and repeatable triage paths.
+**Detection and security automation engineer** building behavioral detections with false-positive tuning and environment-aware enrichment. BS Computer Science, MS Cybersecurity in progress @ WGU. CompTIA **SecurityX** and **CSIE** (full stack). Public work: **SIEM** detection packs, **identity** threat detection, **SOAR** automation, **cloud** auditing, and **network behavioral analysis** — each with detection logic, false-positive scenarios, and triage playbooks.
 
 **Master's in Cybersecurity** at Western Governors University (expected **October 2026**).
 

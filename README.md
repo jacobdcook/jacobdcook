@@ -14,7 +14,7 @@
 
 **Detection and security automation engineer** (BS Computer Science, MS Cybersecurity in progress @ WGU). CompTIA **Security+**, **CySA+**, **PenTest+**, **SecurityX**, and **CSIE** (stackable). Public work spans **SIEM**, **detection-as-code**, **identity**, **cloud**, **SOAR-style automation**, and **network behavior** tooling. I write for outcomes: clearer coverage, less noisy alerting where possible, and repeatable triage paths.
 
-**Master's in Cybersecurity** at Western Governors University (expected **May 2027**).
+**Master's in Cybersecurity** at Western Governors University (expected **October 2026**).
 
 ## 🛠️ Tech Stack
 
@@ -57,7 +57,7 @@
 
 ## Education & Certifications
 
-* **Master's in Cybersecurity** - Western Governors University (Expected May 2027)
+* **Master's in Cybersecurity** - Western Governors University (Expected October 2026)
 * **B.S. in Computer Science** - California State University, Sacramento
 * **CompTIA SecurityX (CAS-005)** - Certified 2026
 * **CompTIA PenTest+ (PT0-003)** - Certified 2026

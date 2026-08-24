@@ -6,6 +6,8 @@
 
 <p align="center"><b>Detection &amp; Security Automation Engineer</b></p>
 
+<p align="center"><i>I turn noisy telemetry into detections you can trust — false positives documented before you ask.</i></p>
+
 <p align="center">
   <a href="https://www.linkedin.com/in/jcook-dev"><img src="https://img.shields.io/badge/LinkedIn-jcook--dev-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   &nbsp;
@@ -22,9 +24,48 @@
   <img src="https://img.shields.io/badge/CSIE-C8202F?style=for-the-badge&logo=comptia&logoColor=white" />
 </p>
 
-I build **reliable triage from noisy telemetry** — behavioral **Sigma** detections, **SIEM** tuning, **identity** attack detection, and **SOAR** automation — each documented with real false-positive scenarios and repeatable response playbooks.
+```yaml
+title: Detection Engineer Activity Observed
+id: jacob-cook
+status: stable
+description: >
+  Builds reliable triage from noisy telemetry. Every detection ships with
+  documented false-positive scenarios and a repeatable response playbook.
+references:
+  - https://jacobdcook.com
+logsource:
+  product: github
+  service: jacobdcook
+detection:
+  selection:
+    capabilities:
+      - 'behavioral Sigma detections mapped to MITRE ATT&CK'
+      - 'Wazuh SIEM deployment and rule tuning'
+      - 'identity attack detection (Okta / Azure / AWS)'
+      - 'SOAR response automation in Python'
+  condition: selection
+falsepositives:
+  - unlikely — check the repos below
+level: high
+```
 
-Currently a Service Desk Analyst moving toward a blue-team / detection role, and pursuing an **MS in Cybersecurity** at Western Governors University (expected **October 2026**).
+Currently pursuing an **MS in Cybersecurity** at Western Governors University (expected **October 2026**) while working in IT and building a blue-team / detection engineering portfolio in public.
+
+## What I build — and where the proof is
+
+| Claim | Evidence |
+| --- | --- |
+| **Detection-as-code** — Sigma rules mapped to MITRE ATT&CK, modeled on real incidents | [Stryker / Intune Detection Pack](https://github.com/jacobdcook/stryker-intune-detection-pack) |
+| **SIEM deployment & tuning** — Wazuh stack with documented alert triage and rule IDs | [Blue Team SOC Monitoring Lab](https://github.com/jacobdcook/blue-team-soc-monitoring-lab) |
+| **Identity attack detection** — MFA fatigue, impossible travel, CloudTrail scenarios | [Okta Detection Engine](https://github.com/jacobdcook/okta-detection-engine) · [AWS Identity Detection Lab](https://github.com/jacobdcook/aws-identity-detection-lab) |
+| **SOAR automation** — alert ingestion driving automated response playbooks | [SOAR-lite IR Orchestrator](https://github.com/jacobdcook/soar-incident-orchestrator) |
+| **Cloud misconfiguration auditing** — Terraform static analysis + live Azure checks | [Cloud Security Auditor](https://github.com/jacobdcook/cloud-security-auditor) · [Azure Hardening Lab](https://github.com/jacobdcook/Azure-Cloud-Hardening-Lab) |
+
+**How I think about detection:**
+
+- A detection without documented false positives is just future noise.
+- Rules live in version control, get tested, and map to ATT&CK — or they don't ship.
+- If I'd run the same response twice, it becomes a playbook.
 
 ## Tech & tooling
 
@@ -33,7 +74,7 @@ Currently a Service Desk Analyst moving toward a blue-team / detection role, and
 <p align="left">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://camo.githubusercontent.com/dc050359857b187d9f7a075b1a03dccb9606b32b30f3178a1ba5973ac17d1c08/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
   <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
@@ -87,15 +128,25 @@ Also: **[Whisper Transcribe](https://github.com/jacobdcook/whisper-transcribe)**
 
 ## Education & certifications
 
-* **Master's in Cybersecurity** — Western Governors University (Expected October 2026)
-* **B.S. in Computer Science** — California State University, Sacramento
-* **CompTIA SecurityX (CAS-005)** — 2026
-* **CompTIA PenTest+ (PT0-003)** — 2026
-* **CompTIA CySA+ (CS0-003)** — Feb 2026
-* **CompTIA Security+ (SY0-701)** — Jan 2026
-* **CompTIA CSIE** (Secure Infrastructure Expert) — stackable credential
+| Credential | Issuer | When |
+| --- | --- | --- |
+| **M.S. Cybersecurity & Information Assurance** | Western Governors University | Expected Oct 2026 |
+| **B.S. Computer Science** | California State University, Sacramento | Completed |
+| **SecurityX (CAS-005)** | CompTIA | 2026 |
+| **PenTest+ (PT0-003)** | CompTIA | 2026 |
+| **CySA+ (CS0-003)** | CompTIA | Feb 2026 |
+| **Security+ (SY0-701)** | CompTIA | Jan 2026 |
+| **CSIE** (Secure Infrastructure Expert) | CompTIA | Stackable credential |
 
 ## GitHub stats
 
 <!-- Stats card is generated by .github/workflows/update-stats.yml and stored in-repo so it always loads (no external fetch). -->
 ![Jacob's GitHub stats](assets/github-stats.svg)
+
+---
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/jcook-dev">LinkedIn</a> ·
+  <a href="https://jacobdcook.com">Portfolio</a> ·
+  <a href="https://www.jacobdcook.com/resume.pdf">Resume</a>
+</p>

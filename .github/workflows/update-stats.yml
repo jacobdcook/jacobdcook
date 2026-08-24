@@ -27,9 +27,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit stats card
+      - name: Refresh Recently shipped section
+        run: python3 scripts/generate_recent_work.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-stats.svg
+          git add assets/github-stats.svg README.md
           git diff --staged --quiet || (git commit -m "Update GitHub stats card" && git push)

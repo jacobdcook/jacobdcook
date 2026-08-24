@@ -6,7 +6,9 @@
 
 <p align="center"><b>Detection &amp; Security Automation Engineer</b></p>
 
-<p align="center"><i>I turn noisy telemetry into detections you can trust — false positives documented before you ask.</i></p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jacobdcook/jacobdcook/main/assets/typing.svg" alt="I turn noisy telemetry into detections you can trust — false positives documented before you ask." />
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jcook-dev"><img src="https://img.shields.io/badge/LinkedIn-jcook--dev-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -66,6 +68,18 @@ Currently pursuing an **MS in Cybersecurity** at Western Governors University (e
 - A detection without documented false positives is just future noise.
 - Rules live in version control, get tested, and map to ATT&CK — or they don't ship.
 - If I'd run the same response twice, it becomes a playbook.
+
+## Recently shipped
+
+<!-- RECENT-WORK:START -->
+- **[portfolio](https://github.com/jacobdcook/portfolio/commit/e93060ffad0da46a6d0ab3b26e4c3cf271967764)** — SSR content, terminal 404, scanlines, console banner, selection color · *Aug 24, 2026*
+- **[portfolio](https://github.com/jacobdcook/portfolio/commit/12b6251670014425e0784c7ac088adcbc0ec2f9f)** — Rebrand icons and logo to terminal identity · *Aug 24, 2026*
+- **[stryker-intune-detection-pack](https://github.com/jacobdcook/stryker-intune-detection-pack/commit/4ec29b960e67f71ca84221eebafa152372686609)** — Tighten policy velocity KQL categories and align VERIFICATION with pytest · *May 12, 2026*
+- **[stryker-intune-detection-pack](https://github.com/jacobdcook/stryker-intune-detection-pack/commit/aed67c49bf265444090f6d39707cfe11e0dc9351)** — Add Sentinel KQL queries for wipe burst, policy velocity, and Entra role window · *May 12, 2026*
+- **[cloud-security-auditor](https://github.com/jacobdcook/cloud-security-auditor/commit/f0180ec22123192e55bc6fbc6b1b0b2090f56bc7)** — fix: add pytest.ini pythonpath for src imports; remove unused import · *May 12, 2026*
+<!-- RECENT-WORK:END -->
+
+<sub>Auto-updated daily by [a GitHub Actions workflow](.github/workflows/update-stats.yml) — the same detection-as-code habit, applied to this page.</sub>
 
 ## Tech & tooling
 

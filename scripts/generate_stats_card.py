@@ -37,6 +37,34 @@ def search_count(query):
     return n
 
 
+def current_streak():
+    """Consecutive days (UTC) with at least one authored commit, ending today
+    or yesterday. Uses the commit search API because the GraphQL contribution
+    calendar returns zeroed counts for workflow integration tokens."""
+    import datetime
+    dates = set()
+    for page in (1, 2, 3):
+        q = urllib.parse.quote(f"author:{USER}")
+        resp = api(
+            f"https://api.github.com/search/commits?q={q}"
+            f"&sort=committer-date&order=desc&per_page=100&page={page}")
+        items = resp.get("items", [])
+        for it in items:
+            dates.add(it["commit"]["author"]["date"][:10])
+        if len(items) < 100:
+            break
+    if not dates:
+        return 0
+    day = datetime.date.today()
+    if day.isoformat() not in dates:
+        day -= datetime.timedelta(days=1)  # today can still be 0 without breaking it
+    streak = 0
+    while day.isoformat() in dates:
+        streak += 1
+        day -= datetime.timedelta(days=1)
+    return streak
+
+
 def contributed_to():
     body = json.dumps({
         "query": """
@@ -61,6 +89,7 @@ ICONS = {
     "commits": "M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z",
     "prs": "M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z",
     "issues": "M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z",
+    "streak": "M9.504.43a1.516 1.516 0 0 1 2.437 1.713L10.415 5.5h2.123c1.57 0 2.346 1.909 1.22 3.004l-7.34 7.142a1.249 1.249 0 0 1-.871.354h-.302a1.25 1.25 0 0 1-1.157-1.723L5.633 10.5H3.462c-1.57 0-2.346-1.909-1.22-3.004L9.503.431Z",
     "contrib": "M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z",
 }
 
@@ -99,6 +128,10 @@ def main():
         rows.append(("contrib", "Contributed to", contributed_to()))
     except Exception as e:
         print(f"note: skipping 'Contributed to' row ({e})")
+    try:
+        rows.append(("streak", "Current Streak (days)", current_streak()))
+    except Exception as e:
+        print(f"note: skipping 'Current Streak' row ({e})")
     rows = [r for r in rows if r[2] > 0]
     if not rows:
         raise RuntimeError("all stats came back zero — refusing to write an empty card")

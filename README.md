@@ -77,11 +77,11 @@ Currently pursuing an **MS in Cybersecurity** at Western Governors University (e
 ## Recently shipped
 
 <!-- RECENT-WORK:START -->
+- **[portfolio](https://github.com/jacobdcook/portfolio/commit/bd869fe0e5b02c59533ff1b7b7d2e1c42a8512c5)** — Correct CSAP stackable credential prerequisites · *Sep 9, 2026*
 - **[portfolio](https://github.com/jacobdcook/portfolio/commit/92ebca5788dfe8b2d8125fc233fd7a761dd307ba)** — Add voxflow, murmur, CareerHound beta, and CSAP to portfolio content. · *Sep 9, 2026*
 - **[careerhound-releases](https://github.com/jacobdcook/careerhound-releases/releases/tag/v0.2.9-b)** — CareerHound v0.2.9 (beta) · *Sep 9, 2026*
 - **[careerhound-releases](https://github.com/jacobdcook/careerhound-releases/releases/tag/v0.2.7-b)** — CareerHound v0.2.7 (beta) · *Sep 9, 2026*
 - **[murmur](https://github.com/jacobdcook/murmur/commit/ef0441bd385717a7b36f85fa0808234d7733a2ed)** — Reliable audio: CPU synth, paplay to default sink (follows AirPods/USB), force full volume, sentence streaming, interrupt capture (clips) · *Sep 8, 2026*
-- **[murmur](https://github.com/jacobdcook/murmur/commit/7a6bd1a7b1e4b57c09057f29578eab706d21f5a1)** — Hold-to-pause (Ctrl+I) with pause/resume beeps; autostart entries · *Sep 8, 2026*
 <!-- RECENT-WORK:END -->
 
 <sub>Auto-updated daily by [a GitHub Actions workflow](.github/workflows/update-stats.yml) — the same detection-as-code habit, applied to this page.</sub>

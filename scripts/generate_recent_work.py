@@ -33,6 +33,10 @@ ALLOW_REPOS = {
     f"{USER}/ai-log-auditor",
     f"{USER}/whisper-transcribe",
     f"{USER}/portfolio",
+    f"{USER}/murmur",
+    f"{USER}/voxflow",
+    f"{USER}/claude-skills",
+    f"{USER}/careerhound-releases",
 }
 SKIP_MSG = re.compile(r"^(merge|update github stats|update stats)", re.I)
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -49,7 +53,7 @@ def api(url):
 
 
 def collect():
-    repos = api(f"https://api.github.com/users/{USER}/repos?sort=pushed&per_page=15")
+    repos = api(f"https://api.github.com/users/{USER}/repos?sort=pushed&per_page=30")
     items = []
     for r in repos:
         name = r["full_name"]

@@ -24,6 +24,7 @@
   <img src="https://img.shields.io/badge/PenTest%2B-C8202F?style=for-the-badge&logo=comptia&logoColor=white" />
   <img src="https://img.shields.io/badge/SecurityX-C8202F?style=for-the-badge&logo=comptia&logoColor=white" />
   <img src="https://img.shields.io/badge/CSIE-C8202F?style=for-the-badge&logo=comptia&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSAP-C8202F?style=for-the-badge&logo=comptia&logoColor=white" />
 </p>
 
 ```yaml
@@ -45,6 +46,8 @@ detection:
       - 'Wazuh SIEM deployment and rule tuning'
       - 'identity attack detection (Okta / Azure / AWS)'
       - 'SOAR response automation in Python'
+      - 'local voice loop for terminal workflows (voxflow + murmur)'
+      - 'desktop app beta distribution (CareerHound)'
   condition: selection
 falsepositives:
   - unlikely — check the repos below
@@ -62,6 +65,8 @@ Currently pursuing an **MS in Cybersecurity** at Western Governors University (e
 | **Identity attack detection** — MFA fatigue, impossible travel, CloudTrail scenarios | [Okta Detection Engine](https://github.com/jacobdcook/okta-detection-engine) · [AWS Identity Detection Lab](https://github.com/jacobdcook/aws-identity-detection-lab) |
 | **SOAR automation** — alert ingestion driving automated response playbooks | [SOAR-lite IR Orchestrator](https://github.com/jacobdcook/soar-incident-orchestrator) |
 | **Cloud misconfiguration auditing** — Terraform static analysis + live Azure checks | [Cloud Security Auditor](https://github.com/jacobdcook/cloud-security-auditor) · [Azure Hardening Lab](https://github.com/jacobdcook/Azure-Cloud-Hardening-Lab) |
+| **Local voice & dev productivity** — push-to-talk input + spoken CLI output, no cloud TTS | [Voxflow](https://github.com/jacobdcook/voxflow) · [Murmur](https://github.com/jacobdcook/murmur) |
+| **Desktop product shipping** — cross-platform beta builds with private source | [CareerHound releases](https://github.com/jacobdcook/careerhound-releases) |
 
 **How I think about detection:**
 
@@ -72,11 +77,11 @@ Currently pursuing an **MS in Cybersecurity** at Western Governors University (e
 ## Recently shipped
 
 <!-- RECENT-WORK:START -->
-- **[portfolio](https://github.com/jacobdcook/portfolio/commit/e93060ffad0da46a6d0ab3b26e4c3cf271967764)** — SSR content, terminal 404, scanlines, console banner, selection color · *Aug 24, 2026*
-- **[portfolio](https://github.com/jacobdcook/portfolio/commit/12b6251670014425e0784c7ac088adcbc0ec2f9f)** — Rebrand icons and logo to terminal identity · *Aug 24, 2026*
-- **[stryker-intune-detection-pack](https://github.com/jacobdcook/stryker-intune-detection-pack/commit/4ec29b960e67f71ca84221eebafa152372686609)** — Tighten policy velocity KQL categories and align VERIFICATION with pytest · *May 12, 2026*
-- **[stryker-intune-detection-pack](https://github.com/jacobdcook/stryker-intune-detection-pack/commit/aed67c49bf265444090f6d39707cfe11e0dc9351)** — Add Sentinel KQL queries for wipe burst, policy velocity, and Entra role window · *May 12, 2026*
-- **[cloud-security-auditor](https://github.com/jacobdcook/cloud-security-auditor/commit/f0180ec22123192e55bc6fbc6b1b0b2090f56bc7)** — fix: add pytest.ini pythonpath for src imports; remove unused import · *May 12, 2026*
+- **[careerhound-releases](https://github.com/jacobdcook/careerhound-releases/commit/19b003247cf896a96e161d89fe470464817918b1)** — Initial commit · *Sep 8, 2026*
+- **[murmur](https://github.com/jacobdcook/murmur/commit/ef0441bd385717a7b36f85fa0808234d7733a2ed)** — Reliable audio: CPU synth, paplay to default sink (follows AirPods/USB), force full volume, sentence streaming, interrupt capture (clips) · *Sep 8, 2026*
+- **[murmur](https://github.com/jacobdcook/murmur/commit/7a6bd1a7b1e4b57c09057f29578eab706d21f5a1)** — Hold-to-pause (Ctrl+I) with pause/resume beeps; autostart entries · *Sep 8, 2026*
+- **[claude-skills](https://github.com/jacobdcook/claude-skills/commit/b886c1d189901ed5461b063e49e1f98f0c3d8d74)** — Add hybrid-build skill: plan big, execute small, verify each · *Sep 4, 2026*
+- **[voxflow](https://github.com/jacobdcook/voxflow/commit/663780a4dcabbec82eeb56b74cd70c07465e39d9)** — ci: set retention-days:1 on release artifacts to stop Actions storage overflow · *Aug 28, 2026*
 <!-- RECENT-WORK:END -->
 
 <sub>Auto-updated daily by [a GitHub Actions workflow](.github/workflows/update-stats.yml) — the same detection-as-code habit, applied to this page.</sub>
@@ -145,6 +150,16 @@ Where I lean on LLMs as a force-multiplier for security and productivity work:
 
 Also: **[Whisper Transcribe](https://github.com/jacobdcook/whisper-transcribe)** (local faster-whisper + CUDA transcription) · **[Claude Code Skills](https://github.com/jacobdcook/claude-skills)** (reusable Claude Code skill packs).
 
+<table><tr>
+<td align="center" valign="top" width="33%"><a href="https://github.com/jacobdcook/voxflow"><b>Voxflow</b></a><br><br><a href="https://github.com/jacobdcook/voxflow"><img src="https://img.shields.io/badge/Voxflow-Voice_Input-10A37F?style=for-the-badge&logo=microphone&logoColor=white" /></a><br>Hold a key, speak, release. Local, cross-platform push-to-talk dictation (open-source Wispr Flow alternative)<br><a href="https://github.com/jacobdcook/voxflow">Project Link</a></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/jacobdcook/murmur"><b>Murmur</b></a><br><br><a href="https://github.com/jacobdcook/murmur"><img src="https://img.shields.io/badge/Murmur-Claude_Code_TTS-8B5CF6?style=for-the-badge&logo=openai&logoColor=white" /></a><br>Streaming Kokoro TTS for Claude Code: music ducking, tray controls, hold-to-pause hotkeys, sentence-level playback<br><a href="https://github.com/jacobdcook/murmur">Project Link</a></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/jacobdcook/claude-skills"><b>Claude Code Skills</b></a><br><br><a href="https://github.com/jacobdcook/claude-skills"><img src="https://img.shields.io/badge/Claude-Skills-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" /></a><br>Reusable skill packs for session memory, wrap-up, and multi-system agent workflows<br><a href="https://github.com/jacobdcook/claude-skills">Project Link</a></td>
+</tr></table>
+
+## Products (beta)
+
+**[CareerHound](https://github.com/jacobdcook/careerhound-releases)** — desktop career workflow app (LinkedIn export import, draft review, manual-send queue). Source is private during beta; public Windows/macOS/Linux builds live in [careerhound-releases](https://github.com/jacobdcook/careerhound-releases).
+
 ## Education & certifications
 
 | Credential | Issuer | When |
@@ -156,6 +171,7 @@ Also: **[Whisper Transcribe](https://github.com/jacobdcook/whisper-transcribe)**
 | **CySA+ (CS0-003)** | CompTIA | Feb 2026 |
 | **Security+ (SY0-701)** | CompTIA | Jan 2026 |
 | **CSIE** (Secure Infrastructure Expert) | CompTIA | Stackable credential |
+| **CSAP** (Security Analytics Professional) | CompTIA | Stackable credential (Security+ · CySA+ · PenTest+) |
 
 ## GitHub stats
 

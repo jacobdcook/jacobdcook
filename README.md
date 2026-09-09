@@ -77,11 +77,11 @@ Currently pursuing an **MS in Cybersecurity** at Western Governors University (e
 ## Recently shipped
 
 <!-- RECENT-WORK:START -->
+- **[portfolio](https://github.com/jacobdcook/portfolio/commit/92ebca5788dfe8b2d8125fc233fd7a761dd307ba)** — Add voxflow, murmur, CareerHound beta, and CSAP to portfolio content. · *Sep 9, 2026*
 - **[careerhound-releases](https://github.com/jacobdcook/careerhound-releases/commit/19b003247cf896a96e161d89fe470464817918b1)** — Initial commit · *Sep 8, 2026*
 - **[murmur](https://github.com/jacobdcook/murmur/commit/ef0441bd385717a7b36f85fa0808234d7733a2ed)** — Reliable audio: CPU synth, paplay to default sink (follows AirPods/USB), force full volume, sentence streaming, interrupt capture (clips) · *Sep 8, 2026*
 - **[murmur](https://github.com/jacobdcook/murmur/commit/7a6bd1a7b1e4b57c09057f29578eab706d21f5a1)** — Hold-to-pause (Ctrl+I) with pause/resume beeps; autostart entries · *Sep 8, 2026*
 - **[claude-skills](https://github.com/jacobdcook/claude-skills/commit/b886c1d189901ed5461b063e49e1f98f0c3d8d74)** — Add hybrid-build skill: plan big, execute small, verify each · *Sep 4, 2026*
-- **[voxflow](https://github.com/jacobdcook/voxflow/commit/663780a4dcabbec82eeb56b74cd70c07465e39d9)** — ci: set retention-days:1 on release artifacts to stop Actions storage overflow · *Aug 28, 2026*
 <!-- RECENT-WORK:END -->
 
 <sub>Auto-updated daily by [a GitHub Actions workflow](.github/workflows/update-stats.yml) — the same detection-as-code habit, applied to this page.</sub>

@@ -77,11 +77,11 @@ Currently pursuing an **MS in Cybersecurity** at Western Governors University (e
 ## Recently shipped
 
 <!-- RECENT-WORK:START -->
+- **[stryker-intune-detection-pack](https://github.com/jacobdcook/stryker-intune-detection-pack/commit/cd571d44fa28f5585d4641c7ae2f2b967d795a7d)** — Match Stryker statement wording in README · *Oct 3, 2026*
+- **[stryker-intune-detection-pack](https://github.com/jacobdcook/stryker-intune-detection-pack/commit/2b210c6cb4db7137b3793efcdd39cf891e93dcdb)** — Frame Stryker figures as attacker claims and add citations · *Oct 3, 2026*
+- **[aws-identity-detection-lab](https://github.com/jacobdcook/aws-identity-detection-lab/commit/8945aee48e37a8e29d9c6215121d28e777e128a0)** — Genericize detection framing line in README · *Oct 3, 2026*
+- **[cloud-security-auditor](https://github.com/jacobdcook/cloud-security-auditor/commit/39441fb35747e94c7ce2419e790dc8f06d9a56c1)** — Add secret-free .env.example template · *Oct 3, 2026*
 - **[careerhound-releases](https://github.com/jacobdcook/careerhound-releases/releases/tag/v0.2.13-b)** — CareerHound v0.2.13 (beta) · *Sep 24, 2026*
-- **[careerhound-releases](https://github.com/jacobdcook/careerhound-releases/releases/tag/v0.2.12-b)** — CareerHound v0.2.12 (beta) · *Sep 23, 2026*
-- **[portfolio](https://github.com/jacobdcook/portfolio/commit/49d25060c2e62da676b31d5675036c5827331c34)** — Mark MS Cybersecurity conferred and fix resume summary placeholder · *Sep 18, 2026*
-- **[portfolio](https://github.com/jacobdcook/portfolio/commit/bd869fe0e5b02c59533ff1b7b7d2e1c42a8512c5)** — Correct CSAP stackable credential prerequisites · *Sep 9, 2026*
-- **[murmur](https://github.com/jacobdcook/murmur/commit/ef0441bd385717a7b36f85fa0808234d7733a2ed)** — Reliable audio: CPU synth, paplay to default sink (follows AirPods/USB), force full volume, sentence streaming, interrupt capture (clips) · *Sep 8, 2026*
 <!-- RECENT-WORK:END -->
 
 <sub>Auto-updated daily by [a GitHub Actions workflow](.github/workflows/update-stats.yml) — the same detection-as-code habit, applied to this page.</sub>

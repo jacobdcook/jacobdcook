@@ -4,10 +4,10 @@
 
 <h1 align="center">Jacob Cook</h1>
 
-<p align="center"><b>Detection &amp; Security Automation Engineer</b></p>
+<p align="center"><b>Software Engineering · Security Automation · Internal Tools</b></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jacobdcook/jacobdcook/main/assets/typing.svg" alt="I turn noisy telemetry into detections you can trust — false positives documented before you ask." />
+  <img src="https://raw.githubusercontent.com/jacobdcook/jacobdcook/main/assets/typing.svg" alt="Software for security and internal workflows; Python APIs, identity, and PostgreSQL-backed labs." />
 </p>
 
 <p align="center">
@@ -27,36 +27,13 @@
   <img src="https://img.shields.io/badge/CSAP-C8202F?style=for-the-badge&logo=comptia&logoColor=white" />
 </p>
 
-```yaml
-title: Detection Engineer Activity Observed
-id: jacob-cook
-status: stable
-description: >
-  Builds reliable triage from noisy telemetry. Every detection ships with
-  documented false-positive scenarios and a repeatable response playbook.
-references:
-  - https://jacobdcook.com
-logsource:
-  product: github
-  service: jacobdcook
-detection:
-  selection:
-    capabilities:
-      - 'behavioral Sigma detections mapped to MITRE ATT&CK'
-      - 'Wazuh SIEM deployment and rule tuning'
-      - 'identity attack detection (Okta / Azure / AWS)'
-      - 'SOAR response automation in Python'
-      - 'local voice loop for terminal workflows (voxflow + murmur)'
-      - 'desktop app beta distribution (CareerHound)'
-  condition: selection
-falsepositives:
-  - unlikely — check the repos below
-level: high
-```
+I build software for security and internal business workflows. My day job is **Service Desk Analyst at Williams-Sonoma**, supporting hardware, software, POS, and network issues across 600+ retail stores.
 
-Currently pursuing an **MS in Cybersecurity** at Western Governors University (expected **October 2026**) while working in IT and building a blue-team / detection engineering portfolio in public.
+My personal projects cover Python APIs, identity detections, security automation, and desktop tools. Current lab work combines **PostgreSQL**, alert triage, and synthetic employee onboarding and rehire scenarios. These projects are separate from employer systems and use lab data.
 
-## What I build — and where the proof is
+**BS Computer Science, Sacramento State. MS Cybersecurity and Information Assurance, WGU, completed 2026.** Based in Sacramento and interested in software engineering for internal tools, backend development, security automation, and identity-focused roles.
+
+## What I build
 
 | Claim | Evidence |
 | --- | --- |
@@ -68,11 +45,11 @@ Currently pursuing an **MS in Cybersecurity** at Western Governors University (e
 | **Local voice & dev productivity** — push-to-talk input + spoken CLI output, no cloud TTS | [Voxflow](https://github.com/jacobdcook/voxflow) · [Murmur](https://github.com/jacobdcook/murmur) |
 | **Desktop product shipping** — cross-platform beta builds with private source | [CareerHound releases](https://github.com/jacobdcook/careerhound-releases) |
 
-**How I think about detection:**
+**How I approach the work:**
 
 - A detection without documented false positives is just future noise.
-- Rules live in version control, get tested, and map to ATT&CK — or they don't ship.
-- If I'd run the same response twice, it becomes a playbook.
+- Keep changes in version control and check behavior with repeatable tests.
+- Automate repeated steps and make failures visible to the person responsible.
 
 ## Recently shipped
 
@@ -164,7 +141,7 @@ Also: **[Whisper Transcribe](https://github.com/jacobdcook/whisper-transcribe)**
 
 | Credential | Issuer | When |
 | --- | --- | --- |
-| **M.S. Cybersecurity & Information Assurance** | Western Governors University | Expected Oct 2026 |
+| **M.S. Cybersecurity & Information Assurance** | Western Governors University | Completed 2026 |
 | **B.S. Computer Science** | California State University, Sacramento | Completed |
 | **SecurityX (CAS-005)** | CompTIA | 2026 |
 | **PenTest+ (PT0-003)** | CompTIA | 2026 |

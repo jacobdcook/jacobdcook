@@ -10,11 +10,11 @@ import html
 import os
 
 PHRASES = [
-    "behavioral Sigma detections mapped to ATT&CK",
-    "Wazuh SIEM deployment and tuning",
-    "identity attack detection: Okta / Azure / AWS",
-    "SOAR response automation in Python",
-    "false positives documented before you ask",
+    "software for security and internal workflows",
+    "Python APIs and security automation",
+    "identity detections and documented playbooks",
+    "PostgreSQL-backed personal lab projects",
+    "enterprise support informs what I build",
 ]
 
 WIDTH, HEIGHT = 720, 44

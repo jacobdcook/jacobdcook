@@ -54,10 +54,10 @@ My personal projects cover Python APIs, identity detections, security automation
 ## Recently shipped
 
 <!-- RECENT-WORK:START -->
+- **[portfolio](https://github.com/jacobdcook/portfolio/commit/ea8c7b86da8b0566f640b411eecead0b16b897dc)** — Remove phone number from site and resume · *Nov 21, 2026*
+- **[aws-identity-detection-lab](https://github.com/jacobdcook/aws-identity-detection-lab/commit/d65dfeacdf2426189335f3bb44acdb89fc630b5c)** — Add secrets harvesting detection (T1555.006) with denied-recon context · *Nov 21, 2026*
 - **[portfolio](https://github.com/jacobdcook/portfolio/commit/a0730c1525d2c3763bc600949b39f14c82aa9628)** — Fix mobile Projects reveal, default to light theme, add GitHub projects, mobile polish · *Oct 15, 2026*
-- **[portfolio](https://github.com/jacobdcook/portfolio/commit/c65450393c28f50a237ade6da91ddbaed202e861)** — Align portfolio and resume with software and security engineering focus · *Oct 8, 2026*
 - **[stryker-intune-detection-pack](https://github.com/jacobdcook/stryker-intune-detection-pack/commit/cd571d44fa28f5585d4641c7ae2f2b967d795a7d)** — Match Stryker statement wording in README · *Oct 3, 2026*
-- **[stryker-intune-detection-pack](https://github.com/jacobdcook/stryker-intune-detection-pack/commit/2b210c6cb4db7137b3793efcdd39cf891e93dcdb)** — Frame Stryker figures as attacker claims and add citations · *Oct 3, 2026*
 - **[aws-identity-detection-lab](https://github.com/jacobdcook/aws-identity-detection-lab/commit/8945aee48e37a8e29d9c6215121d28e777e128a0)** — Genericize detection framing line in README · *Oct 3, 2026*
 <!-- RECENT-WORK:END -->
 
